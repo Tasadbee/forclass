@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navvv navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <a class="navbar-brand Wikipedia" href="#">Wikipedia</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a id="contact" class="nav-link active" aria-current="page" href="tel:+998950649444">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="cards">
+                <h2 class="hero__title">Tovarlar haqida malumot</h2>
+                <ul class="list">
+                    <li class="list__item">
+                        <a href="https://uz.wikipedia.org/wiki/Olma" class="list__item__link" target="_blank">
+                            <img src="./img/Olma.jpeg" alt="" class="list__item__img">
+                        </a>
+                        <h4 class="list__item__title">Olma</h4>
+                        <p class="list__item__text">Lorem, ipsum.</p>
+                    </li>
+                    <li class="list__item">
+                        <a href="https://uz.wikipedia.org/wiki/Anor" class="list__item__link"  target="_blank">
+                            <img src="./img/Anor.jpeg" alt="" class="list__item__img">
+                        </a>
+                        <h4 class="list__item__title">Anor</h4>
+                        <p class="list__item__text">Lorem, ipsum.</p>
+                    </li>
+                    <li class="list__item">
+                        <a href="https://uz.wikipedia.org/wiki/Behi" class="list__item__link"  target="_blank">
+                            <img src="./img/Behi.jpg" alt="" class="list__item__img">
+                        </a>
+                        <h4 class="list__item__title">Behi</h4>
+                        <p class="list__item__text">Lorem, ipsum.</p>
+                    </li>
+                    <li class="list__item">
+                        <a href="https://uz.wikipedia.org/wiki/Nok" class="list__item__link"  target="_blank">
+                            <img src="./img/Nok.png" alt="" class="list__item__img">
+                        </a>
+                        <h4 class="list__item__title">Nok</h4>
+                        <p class="list__item__text">Lorem, ipsum.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="container">
+            <div class="main__items">
+                <h2 class="main__title">Harid qilish bo'limi</h2>
+                <div class="main__input__box">
+                    <h2 class="main__input__box__title">Maxsulot nomini kiriting</h2>
+                    <input type="text" class="main__input">
+                    <button class="main__btn" onclick="Addfn()">Kiriting</button>
+                    <button class="main__btn1" onclick="Delfn()">Sotib olish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__box">
+                <h2 class="footer__title">Sotuvchilar</h2>
+                <ul class="footer__list">
+                    <li class="footer__list__item">
+                        <h4 class="footer__item__title">
+                            Omadbee
+                        </h4>
+                        <a class="footer__item__link" href="tel:+998978387731">contact</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <h4 class="footer__item__title">
+                            Kamronbee
+                        </h4>
+                        <a class="footer__item__link" href="tel:+998932490044">contact</a>
+                    </li>
+                    <li class="footer__list__item">
+                        <h4 class="footer__item__title">
+                            Abdulazizbee
+                        </h4>
+                        <a class="footer__item__link" href="tel:+998918755757">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</html>
